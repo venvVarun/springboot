@@ -1,0 +1,69 @@
+1. Basics of Spring Boot
+What is Spring Boot and what are its main features?
+How does Spring Boot differ from the Spring Framework?
+What is the purpose of the @SpringBootApplication annotation?
+How do you create a Spring Boot application?
+What is Spring Boot DevTools?
+What are Spring Boot starters? Can you name a few common starters?
+What is the role of the @EnableAutoConfiguration annotation?
+2. Application Configuration
+How does Spring Boot handle application configuration?
+What is the role of application.properties or application.yml?
+How can you externalize configuration in Spring Boot?
+What are the different ways to configure properties in a Spring Boot application?
+How do you configure multiple databases in a Spring Boot application?
+3. Dependency Injection and Beans
+What is Dependency Injection?
+What is Spring Bean Lifecycle?
+What are IOC Containers?
+Explain the concept of Dependency Injection in Spring Boot.
+What is a Java config file and what are its limitations?
+What is the difference between @Component, @Service, and @Repository?
+What is the role of the @Bean annotation?
+How does a CGLIB proxy work with @Bean?
+@Component vs @Bean: What is the difference?
+What is a BeanFactoryPostProcessor? Can you provide a code walkthrough?
+4. Spring Data JPA and Database Handling
+What is Spring Data JPA, and how does it work with Spring Boot?
+Is it required to write @Repository annotations in Spring Data JPA?
+How do you implement pagination and sorting in Spring Data JPA?
+How do you manage database migrations in Spring Boot?
+5. REST and Web Services
+How do you create a RESTful web service using Spring Boot?
+What is the use of the @RestController annotation?
+What is the difference between @Controller and @RestController?
+How do you consume a RESTful web service in Spring Boot?
+How will you handle a Bad Gateway exception thrown from a REST client?
+6. Error Handling and Exception Management
+How do you handle exceptions globally in Spring Boot?
+Explain the need for a global exception handler in Spring Boot.
+What is the difference between @ControllerAdvice and @RestControllerAdvice?
+How can you create custom error responses in Spring Boot?
+7. Security
+What is Spring Security Context?
+How can you secure a Spring Boot application?
+What is the role of Spring Security in a Spring Boot application?
+8. Testing and Development Tools
+How do you test a Spring Boot application?
+What is Spring Boot Actuator and what are its benefits?
+How can you implement logging in a Spring Boot application?
+How do you deploy a Spring Boot application to production?
+9. Advanced Features
+What is Spring Cloud and how does it relate to Spring Boot?
+How do you integrate Spring Boot with a messaging queue (e.g., RabbitMQ, Kafka)?
+What is the significance of the @Conditional annotation?
+How do you implement caching in Spring Boot?
+How do you implement file uploads in Spring Boot?
+How do you implement health checks in a Spring Boot application?
+How do you handle CORS in a Spring Boot application?
+10. Microservices and Distributed Systems
+What is Spring Boot’s approach to microservices?
+How to enable multiple Eureka servers?
+11. Task Scheduling and Background Jobs
+How can you schedule tasks in Spring Boot?
+12. Other Concepts
+What is the difference between Spring Filter and Spring Interceptors?
+What is the purpose of the @Transactional annotation? Explain the transactional propagation in Spring.
+Why use @Transactional annotation and what’s the benefit?
+What is the Spring Data project and its hierarchy?
+What is the use of the @NoRepositoryBean in Spring Boot?
